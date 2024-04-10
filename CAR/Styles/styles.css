@@ -1,0 +1,387 @@
+/* r.a.d.ajax - load user controls stylesheet */
+html, body, form
+{
+    margin: 0;
+	padding: 2px;
+    font: arial,tahoma,sans-serif;
+    font-size: 8pt !important;
+}
+
+.divTag
+{
+  height: auto; 
+  width: 350px; 
+  vertical-align: top; 
+  font-family: Arial; 
+  word-wrap: break-word; 
+  border: none;
+}
+
+.label
+{
+    font: arial,tahoma,sans-serif;
+    font-size: 8pt;
+}
+
+.labelBold
+{
+    font: arial,tahoma,sans-serif;
+    font-size: 8pt;
+    font-weight:bold;
+}
+
+.panelContainer
+{
+	margin-left:1px;
+	margin-top: 1px;
+
+	width: 700px;
+	font: normal x-small Arial, Verdana, Sans-serif;
+	color: #a6a896;
+}
+
+.tabsContainer
+{
+	width: 700px;
+	height: 72px;
+	text-align: center;
+    font: arial,tahoma,sans-serif;
+    font-size: 8pt !important;
+}
+
+.tabsContainer img
+{
+	border: 0px;
+}
+
+.tabsContainer a
+{
+	margin-right: 1px;
+}
+
+.contentContainer
+{
+	width:auto;
+	height:auto;
+	min-height: 150px;
+	cursor: default;
+	margin-left:0px;
+	margin-top: 0px;
+}
+
+.panelContent
+{
+	margin-left:0px;
+	margin-top: 0px;
+}
+
+.contentContainer .fieldset {
+    border-width: thin;
+    border-color: lightgray;
+}
+
+.contentContainer .inputText {
+    height: 16px;
+    width: 154px;
+    border: solid 1px #7f9db9;
+    margin-bottom: 0px;
+    margin-left: 4px;
+    font: bold 12px Arial, Verdana, Sans-serif;
+    color: black;
+}
+
+.contentContainer .inputTextArea
+{
+	border: solid 1px #7f9db9;
+	margin-bottom: 0px;
+	vertical-align: middle;
+	font: normal 10px Arial, Verdana, Sans-serif;
+	color: black;
+}
+
+.contentContainer .inputTextSmall
+{
+	width: 75px;
+	border: solid 1px #7f9db9;
+	margin-bottom: 0px;
+	vertical-align: middle;
+	margin-left: 4px;
+	font: normal 10px Arial, Verdana, Sans-serif;
+	color: black;
+}
+
+.contentContainer table
+{
+	font: normal 11px Arial, Verdana, Sans-serif;
+	color:  black;
+	width:auto;
+	BACKGROUND-IMAGE:url(../Img/pagerBg.gif);
+    BACKGROUND-REPEAT: repeat-x;
+    text-align: left;
+}
+
+.contentContainer th
+{
+    font: bold 11px Arial, Verdana, Sans-serif;
+    text-align: left;
+}
+
+.contentContainer td
+{
+    font: normal 11px Arial, Verdana, Sans-serif;
+    text-align: left;
+}
+
+.controlsContainer
+{
+	width: 700px;
+	height: 64px;
+}
+
+.contentNavigation table
+{
+	font: normal 11px Arial, Verdana, Sans-serif;
+	color:  black;
+}
+
+
+.lineSeparator
+{
+    width: 100%;
+    border-bottom: 1px solid #959485;
+    height: 1px;
+    position: relative;
+    right: 0;
+}
+
+/*.tableHeader
+{
+	font: arial,tahoma,sans-serif;
+    font-weight: bold;
+    font-size: 8pt !important;
+	text-align:left;
+	color: black;
+    width: auto;
+    height: auto ;  
+ }*/
+
+.Button
+{
+	width: 270px;
+	height: 22px;
+	font: normal 10px Arial, Verdana, Sans-serif;
+	color: #52534b;
+	border: 0px;
+	background: transparent url(../Img/buttonBg.gif) no-repeat;
+	padding: 0px;
+	vertical-align: middle;
+}
+
+.viewWrap {
+
+    padding: 10px;
+    background: none;
+    -moz-box-shadow: inset 0 0px 5px rgba(41,51,58,0.5);
+    -webkit-box-shadow: inset 0 0px 5px rgba(41,51,58,0.5);
+    box-shadow: inset 0 0px 5px rgba(41,51,58,0.5);
+}
+
+.halBuyer {
+    color: #93b45c;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.RadComboBoxDropDown 
+   {    
+    font: arial,tahoma,sans-serif !important;
+    font-size: 8pt !important; 
+   }  
+
+.RadComboBox
+   {    
+    font: arial,tahoma,sans-serif !important;
+    font-size: 8pt !important;
+   }  
+
+.rgEditForm {
+    width: 650px !important;
+}
+ 
+* + html .rgEditForm.popUpEditForm {
+    width: 800px !important;
+}
+ 
+.rgEditForm > div + div,
+.RadGrid .rgEditForm {
+    height: auto !important;
+}
+ 
+.rgEditForm > div > table{
+    height: 100%;
+}
+ 
+.rgEditForm > div > table > tbody > tr > td {
+    padding: 2px 2px;
+}
+
+/*div.RadGrid_Bootstrap .rgDataDiv
+{
+    height : auto !important ;
+}*/
+
+
+
+div.RadGrid_Bootstrap .rgRow td, .rgRow th,
+div.RadGrid_Bootstrap .rgAltRow td {
+    cursor: pointer;
+    padding: 0px 0px 0px;
+    font: arial,tahoma,sans-serif;
+    font-size: 8pt !important;
+}
+
+.RadGrid_Bootstrap .rgHeader, .RadGrid .rgHeader a {
+    padding: 0px 0px 0px;
+    font: arial,tahoma,sans-serif;
+    font-size: 8pt !important;
+}
+
+.RadGrid_Bootstrap .rgSelectedRow td,
+.RadGrid_Bootstrap .rgSelectedRow td.rgSorted {
+    background-color: lightblue !important;
+    color: black !important;
+}
+
+.RadGrid_Bootstrap .rgMasterTable th.filteredColumn {
+    background-color: yellow;
+}
+
+.RadGrid_Bootstrap .rgCommandRow {
+    background-color: red !important;
+}
+
+
+div.RadGrid_Bootstrap .rgAltRow {
+    background: #F2F2F2;
+    color: Black !important;
+}
+
+.RadCalendar_BootStrap .rcMain {
+    width: 100%;
+    height: 150px;
+    border: 1px solid gray;
+    border-top: 0;
+    padding: 0;
+    background: #fff;
+    font: x-small arial,tahoma,sans-serif;
+}
+
+.RadCalendar_BootStrap .rcMainTable {
+    border-collapse: collapse;
+    border: 1px solid gray;
+    width: 100%;
+    height: 150px;
+    margin: 0;
+    font: 10px arial,tahoma,sans-serif;
+    background: #fff;
+}
+
+.RadCalendar_BootStrap .rcTitlebar {
+    width: 100%;
+    border: 1px solid gray;
+    padding: 0;
+    background: #00aa00;
+    color: #aaff99;            
+    font: 10px arial,tahoma,sans-serif;
+}
+
+.RadCalendarMonthView_BootStrap {
+    font: 10px arial,tahoma,sans-serif;
+}
+
+.RadInput_BootStrap
+{
+     font: Arial, Verdana, Tahoma, Sans-Serif; 
+     font-size: 8pt !important;
+     vertical-align: middle; 
+     
+}
+
+.RadTreeView,
+.RadTreeView .rtUL .rtLI .rtChecked,
+.RadTreeView .rtUL .rtLI .rtUnchecked,
+.RadTreeView .rtIn,
+.RadTreeView .rtEdit .rtIn input
+{
+    font: arial,tahoma,sans-serif;
+    font-size: 8pt !important;
+    width:auto;
+    height:auto;
+    cursor: pointer;
+}   
+
+
+.RadTabStrip .rtsLevel1 {
+    background-image:url('../Img/metal.png');
+    font: arial,tahoma,sans-serif;
+    font-size: 8pt !important;
+    border-left:solid;
+}
+
+.RadTabStrip2 .rtsLevel1 {
+    background-image:url('../Img/blank.gif');
+    font: arial,tahoma,sans-serif;
+    font-size: 8pt !important;
+    border-width:thick;
+    border-style:solid;
+}
+
+ 
+.RadButton .rbText
+{
+    font-size: small;
+    font-weight: bold;
+    border: none;    
+}
+
+.RadListBox .rlbGroup
+{
+    border: 1px solid #8e8e8e;    
+    background: #FFFFFF;
+}
+ 
+.RadListBox .rlbText,
+.RadListBox .rlbItem,
+.RadListBox .rlbButtonText,
+.RadListBox .rlbEmptyMessage
+{
+    font: arial,tahoma,sans-serif;
+    font-size: 8pt !important;
+}  
+ 
+.RadListBox .rlbText,
+.RadListBox .rlbItem
+{
+    line-height: 10px;     
+}
+ 
+.RadListBox .rlbGroup .rlbHovered
+{
+    background: lightblue;/* text color when hovered over options */   
+}
+ 
+.RadListBox .rlbGroup .rlbSelected
+{
+    /*color: #FFF;
+    background: #0A246A;/* Listbox item selected background color #C8C8C8,  #140B65*/
+
+    background : #FFF !important;
+    color: black !important;
+}
+ 
+.RadListBox .rlbDisabled .rlbText
+{
+    color: #AAA;/*Disabled listbox text color*/
+}
+ 
+
